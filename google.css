@@ -1,0 +1,126 @@
+*
+{
+		text-decoration: none;
+	
+}
+
+.header
+{
+	display: flex;
+	justify-content: space-between;
+	font-family: Arial;
+	font-size: 13px;
+	color: black;
+	
+	/*Pas réussi à décoller Gmail de Images*/
+
+	position: fixed;
+	width: 50px;
+	right: 17%;
+}
+
+.mosaique
+{
+	display:flex;
+	width: 25px;
+	height:25px;
+	vertical-align: bottom; /*Ca ne s'aligne pas sur le texte */
+	margin-top: -15px;
+}
+
+.Connexion
+{
+	color:white;
+	font-family: Arial;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 5px;
+	background-color: lightblue;
+}
+
+
+
+article
+{
+
+	text-align:center;
+	font-family: Arial;
+	font-size: 15px;
+	
+
+}
+
+.Logo
+{
+	margin-top: 150px;
+
+}
+
+input
+{
+	border-radius: 100px 100px 100px 100px;
+	border-color: grey;
+	width: 600px;
+	height: 30px;
+
+	;
+}
+
+.Recherche, .Chance
+{ 
+	
+	border: 2px solid black;
+	padding: 5px;
+	margin:3.5px;
+	background: grey;
+	color: black;
+	opacity: 0.8;
+ }
+
+
+.France
+{	
+	
+	position: fixed;
+	bottom: 12%;
+	left: 0;
+	width: 1000px;
+	color: grey;
+	background-color: black;
+}
+
+
+.pied1
+{
+	display: flex;
+	flex-wrap: wrap;
+	position:fixed;
+	justify-content: space-around;
+	width: 40%;
+	bottom: 0;
+	left: 0;
+	padding-top: 8px;
+	padding-bottom: 10px;
+	font-family: Arial;
+	font-size: 13px;
+	color: grey;
+
+
+}
+
+.pied2
+{
+	display: flex;
+	flex-wrap: wrap;
+	flex-position: flex-end;
+	justify-content: space-between;
+	width: 40%;
+	position:fixed;
+	bottom: 0;
+	right: 0;
+	padding-top: 8px;
+	padding-bottom: 10px;
+	font-family: Arial;
+	font-size: 13px;
+	color: grey;
+}
